@@ -41,7 +41,7 @@ const tempstatus = arrdata[0].weather[0].main;
             console.log(data);
             datahide.classList.remove(`data_hide`);
         } catch (error) {
-            city_name.innerText = "Please Enter the City Name Properly";
+            city_name.innerText = "Please Enter the City Name Properly..";
             datahide.classList.add(`data_hide`);
         }
 
